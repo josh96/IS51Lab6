@@ -13,8 +13,8 @@ otherwise if the number is not any of the above, then the results will be "Bar"
 
 
 we iterate over using a loop three times and print the results to the user. As an example "Plum Cherries Melon"
-
 """
+
 
 """
 import random
@@ -35,33 +35,6 @@ otherwise
 
 loop three times
   print the output (fruit) to the user
-
   """
 
 
-  import random
-
-def main():
-  for i in range(0,3):
-    print('i--->', i)
-    spin()
-
-def spin():
-  rand_num = random.randint(1,20)
-  output = ""
-  if(rand_num > 15):
-    output = "Cherries"
-  elif(rand_num > 10):
-    output = "Orange"
-  elif(rand_num > 5):
-    output = "Plum"
-  elif(rand_num > 2):
-    output = "Melon"
-  elif(rand_num > 1):
-    output = "Bell"
-  else:
-    output = "Bar"
-
-    pint(output, end=" ")
-
-main()
